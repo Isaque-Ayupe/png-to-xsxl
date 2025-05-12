@@ -17,3 +17,14 @@ tessdata/
 
 # xlsx
 *.xlsx
+
+# data
+data/
+*.jpg
+*.png
+*.jpeg
+*.bmp
+*.tiff
+*.gif
+*.webp
+
