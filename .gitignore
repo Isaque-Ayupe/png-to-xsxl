@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# PyInstaller
+dist/
+
+# vscode
+.vscode/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+
