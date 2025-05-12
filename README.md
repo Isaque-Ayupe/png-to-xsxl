@@ -54,6 +54,19 @@ png-to-xlsx/
 ├── requirements.txt # Dependências do projeto
 ├── README.md        # Documentação
 │
+├── src/             # Código fonte modularizado
+│   ├── config/      # Configurações do projeto
+│   │   ├── __init__.py
+│   │   └── settings.py    # Constantes e configurações
+│   │
+│   ├── utils/       # Utilitários do projeto
+│   │   ├── __init__.py
+│   │   ├── cli.py                # Interface de linha de comando
+│   │   ├── image_processor.py    # Processamento de imagens
+│   │   └── language_manager.py   # Gerenciador de idiomas
+│   │
+│   └── __init__.py
+│
 ├── tessdata/        # Diretório para modelos de idioma do Tesseract
 │   ├── por.traineddata  # Modelo português
 │   ├── eng.traineddata  # Modelo inglês
@@ -105,6 +118,7 @@ O programa suporta vários argumentos de linha de comando:
 - Feedback detalhado do processo de conversão
 - Download automático de modelos de idioma
 - Compatibilidade com diferentes sistemas operacionais
+- Estrutura de código modularizada e reutilizável
 
 ## 📝 Notas
 
