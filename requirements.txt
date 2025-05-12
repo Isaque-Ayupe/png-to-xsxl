@@ -3,4 +3,5 @@ pytesseract
 pandas
 openpyxl
 pillow
-pytesseract
+argparse
+requests
